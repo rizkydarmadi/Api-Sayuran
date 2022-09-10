@@ -1,6 +1,7 @@
 import typer
 import alembic.config
 import os
+from seeder import Seeder
 
 app = typer.Typer()
 

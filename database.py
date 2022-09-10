@@ -25,3 +25,4 @@ Base = declarative_base()
 from user.model import User
 from Provinsi.model import Provinsi
 from Sayuran.model import Sayuran
+from data_sayuran.model import Data_sayuran
