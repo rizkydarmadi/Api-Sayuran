@@ -22,7 +22,7 @@ Session = sessionmaker(engine, future=True)
 Base = declarative_base()
 
 # for alembic automigrations
-from user.model import User
-from Provinsi.model import Provinsi
-from Sayuran.model import Sayuran
-from data_sayuran.model import Data_sayuran
+# from user.model import User
+# from Provinsi.model import Provinsi
+# from Sayuran.model import Sayuran
+# from data_sayuran.model import Data_sayuran

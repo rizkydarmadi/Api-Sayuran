@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import user
+import Sayuran
 
 app = FastAPI(title='Pertanian')
 
@@ -13,6 +14,7 @@ app = FastAPI(title='Pertanian')
 # )
 
 app.include_router(user.auth_router)
+app.include_router(Sayuran.Sayuran_router)
 @app.get("/")
 async def hello():
     return {'Hello': "You Make Me Happy"}
